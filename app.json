@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "name": "Gym",
+    "slug": "gym-app",
+    "scheme": "gymapp",
+    "version": "1.0.0",
+    "platforms": ["ios"],
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.maslovskiy.gymapp"
+    },
+    "plugins": ["expo-router", "expo-sqlite"]
+  }
+}
